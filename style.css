@@ -1,0 +1,27 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.header{
+    background-color: lightblue;
+    border: 1px solid black;
+}
+.details{
+    background-color: lightcoral;
+    border: 1px solid black;
+}
+#internships{
+    background-color: lightblue;
+}
+.details{
+    background-color: blanchedalmond;
+    border: 1px solid purple;
+}
+#query{
+    background-color: bisque;
+    border: 1px solid black;
+}
+#gender{
+    background-color: darkseagreen;
+    border: 1px solid black;
+}
