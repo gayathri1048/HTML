@@ -1,0 +1,31 @@
+html,body{
+   margin: auto;
+}
+body{
+    padding: 25%;
+}
+table{
+    
+    margin: auto;
+    border-radius: 2px;
+    border: 2px solid green;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+}
+table tr,td{
+    border-radius: 2px;
+    border-color: aliceblue;
+    
+}
+p{
+    text-decoration: underline;
+    text-transform: unset;
+}
+h1{
+    margin: auto;
+}
+.button{
+    background-color: aquamarine;
+    color: aliceblue;
+    width: 100%;
+}

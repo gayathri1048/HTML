@@ -1,0 +1,70 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: lightskyblue;
+}
+.parent{
+    background-color: lightsalmon;
+    height:35%;
+    width: 30%;
+    position: relative;
+    /*top left*/
+    /*bottom right*/
+    top:100px;
+    left:100px
+}
+.child{
+    height: 30%;
+    width: 45%;
+    border: 2px solid black;
+    background-color: lightslategray;
+    position: absolute;
+    top:20px;
+    left:20px;
+
+}
+.chatbot{
+    height: 100px;
+    width:100px;
+    margin: 40px;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    font-weight: bolder;
+    background-color: lightpink;
+    border-radius: 20%;
+    position: fixed;
+
+
+}
+.sticky{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: rgb(249, 16, 133);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.box{
+    height:40%;
+    width: 40%;
+    background-color: bisque;
+    border:1px solid black;
+    transition :transform 0.6s ease-in-out;
+    box-shadow: 7px 8px 7px 8px;
+    margin: auto;
+}
+.box:hover{
+    height:50%;
+    width: 50%;
+    background-color: lightseagreen;
+    border: 1px solid black;
+    box-shadow: 7px 8px 7px 8px;
+}

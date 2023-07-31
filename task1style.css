@@ -1,0 +1,19 @@
+html,body{
+    height:100%;
+    width: 100%;
+    background-color: aqua;
+    margin: auto;
+}
+div{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    height: 80px;
+}
+nav a{
+    background-color:blueviolet;
+}
