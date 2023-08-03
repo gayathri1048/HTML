@@ -1,0 +1,30 @@
+html,body{
+    height:100%;
+    width:100%;
+    background-color: aqua;
+}
+div{
+    display: flex;
+
+}
+ .image1{
+    /* text-align:right; */
+    background-color:bisque;
+    height: 150px;
+    width: 50%;
+    float: right;
+    border-radius: 4px;
+    border: 2px solid gray;
+ }
+.image2{
+    height: 150px;
+    width: 50%;
+    float: left;
+    border-radius: 4px;
+    border:2px solid gray ;
+    position:relative;
+}
+p{
+    padding-left: 2px;
+
+}
