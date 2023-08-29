@@ -1,0 +1,64 @@
+ /* #fetch-data{
+    height: 100px;
+    width: 100px;
+    transition: background-color 2s ease,width 10s ease; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:auto;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+#fetch-data:hover{
+    transform: scale(10);
+    background-color: lightsalmon;
+    color: white;
+    width: 400px;
+} */
+ #data{
+    transition: color 4s ease; 
+    width: 100px;
+    height: 100px;
+    /* background-color: aquamarine; */
+    color: black;
+    /* transform: translate(50px,100px);
+    transition: 2s; */
+
+} 
+/* #data:hover{
+    color:black;
+    transform: scale(2); 
+    transform: translate(50px,100px) skewY(30deg);
+} */
+/* .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightcoral;
+} */
+/* @media screen and (max-width:480pxmin-width:480px;){for moble devices we use screen width between 320 to 480px
+    /* .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+}  */ 
+@media screen and (min-width:1201px)  {
+    #data{background-color: black;}
+    
+}
+@media screen and (max-width:1200px) {
+    #data{background-color: grey;}
+    
+}
+@media screen and (max-width:1024px) {
+    #data{background-color:green;}
+    
+}
+@media screen and (max-width:768px) {
+    #data{background-color:pink;}
+    
+}
+@media screen and (max-width:480px){
+    #data{background-color: red;}
+    
+}
